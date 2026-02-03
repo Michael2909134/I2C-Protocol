@@ -60,4 +60,14 @@ I²C Bus
 .ACK / NACK
 <br>
 .Data Byte(s)
+<br>
 .Stop Condition
+<br>
+
+***Tools***
+<br>
+HDL: Verilog
+<br>
+FPGA: Kintex-7 (KC705)
+<br>
+EDA Tool: Vivado

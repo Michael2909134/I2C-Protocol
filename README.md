@@ -49,6 +49,7 @@ I²C Bus
 <br>
   -Shared SDA and SCL lines
 <br>
+
 ***Data Frame Format***
 <br>
 .Start Condition

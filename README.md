@@ -12,3 +12,22 @@ Synchronous communication
 Open-drain bus architecture
 <br>
 Multi-master & multi-slave support
+<br>
+
+***Bus Operation***
+<br>
+Both SDA and SCL are open-drain
+<br>
+Devices can pull lines LOW, not HIGH
+<br>
+Pull-up resistors maintain default HIGH state
+<br>
+Prevents bus contention and short circuits
+<br>
+***Speed Modes***
+<br>
+Standard: 100 kbps
+<br>
+Fast: 400 kbps
+<br>
+High-Speed: up to 3.4 Mbps

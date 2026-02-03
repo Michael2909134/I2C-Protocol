@@ -35,30 +35,31 @@ Multi-master & multi-slave support
 
 ***System Architecture***
 <br>
-.I²C Master
+I²C Master
 <br>
-Generates SCL
+  -Generates SCL
 <br>
-Initiates communication
+  -Initiates communication
 <br>
-.I²C Slave
+I²C Slave
 <br>
-Responds to matching 7-bit address
+  -Responds to matching 7-bit address
 <br>
-.I²C Bus
+I²C Bus
 <br>
-Shared SDA and SCL lines
-
-📦 Data Frame Format
-
-Start Condition
-
+  -Shared SDA and SCL lines
+<br>
+***Data Frame Format***
+<br>
+.Start Condition
+<br>
 7-bit Address
+<br>
+.Read/Write Bit
+<br>
+.ACK / NACK
+<br>
+.Data Byte(s)
 
-Read/Write Bit
-
-ACK / NACK
-
-Data Byte(s)
 
 Stop Condition

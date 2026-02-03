@@ -31,3 +31,34 @@ Multi-master & multi-slave support
 -Fast: 400 kbps
 <br>
 -High-Speed: up to 3.4 Mbps
+<br>
+
+***System Architecture***
+<br>
+.I²C Master
+<br>
+Generates SCL
+<br>
+Initiates communication
+<br>
+.I²C Slave
+<br>
+Responds to matching 7-bit address
+<br>
+.I²C Bus
+<br>
+Shared SDA and SCL lines
+
+📦 Data Frame Format
+
+Start Condition
+
+7-bit Address
+
+Read/Write Bit
+
+ACK / NACK
+
+Data Byte(s)
+
+Stop Condition

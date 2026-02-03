@@ -23,6 +23,7 @@ Multi-master & multi-slave support
 <br>
 -Prevents bus contention and short circuits
 <br>
+
 ***Speed Modes***
 <br>
 -Standard: 100 kbps

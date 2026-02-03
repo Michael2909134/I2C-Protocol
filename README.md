@@ -60,6 +60,4 @@ I²C Bus
 .ACK / NACK
 <br>
 .Data Byte(s)
-
-
-Stop Condition
+.Stop Condition
